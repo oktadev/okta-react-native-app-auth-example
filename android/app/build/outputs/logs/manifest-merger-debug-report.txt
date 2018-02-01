@@ -1,0 +1,243 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-app-auth] /Users/mraible/okta-react-native-app-auth/node_modules/react-native-app-auth/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:17:1-31:12
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:15:1-46:12
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d167a8b46f0d8c204b8ae168b8d37bdc/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/48cab131b75e3ed4d34f3d04e9afc6ce/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/ea7c071357a0d5da7e8042bb9850a593/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/d6bcae68177f3c119c774f7f815c5c54/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/mraible/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/927822efb723357a3eb8d7968cc3b779/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/9619f8f0c25bf22aab0721fcc5c97a16/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/39527257dee1131957bf8927b5c9987c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/d96092e1b922400030989d72beb44424/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/642d5d6b555ac862e0bcdd00382706f3/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:2:5-25
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:24:5-67
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:7:22-75
+uses-sdk
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [:react-native-app-auth] /Users/mraible/okta-react-native-app-auth/node_modules/react-native-app-auth/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-app-auth] /Users/mraible/okta-react-native-app-auth/node_modules/react-native-app-auth/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:21:5-23:78
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:20:5-22:41
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d167a8b46f0d8c204b8ae168b8d37bdc/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d167a8b46f0d8c204b8ae168b8d37bdc/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/48cab131b75e3ed4d34f3d04e9afc6ce/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/48cab131b75e3ed4d34f3d04e9afc6ce/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/ea7c071357a0d5da7e8042bb9850a593/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/ea7c071357a0d5da7e8042bb9850a593/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/d6bcae68177f3c119c774f7f815c5c54/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/d6bcae68177f3c119c774f7f815c5c54/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/9619f8f0c25bf22aab0721fcc5c97a16/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/9619f8f0c25bf22aab0721fcc5c97a16/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/39527257dee1131957bf8927b5c9987c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/39527257dee1131957bf8927b5c9987c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/d96092e1b922400030989d72beb44424/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/d96092e1b922400030989d72beb44424/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/642d5d6b555ac862e0bcdd00382706f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/642d5d6b555ac862e0bcdd00382706f3/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:9:5-11:41
+INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:9:5-11:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:13:5-30:19
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.52.2] /Users/mraible/.gradle/caches/transforms-1/files-1.1/react-native-0.52.2.aar/9cb7b6f31427e44ff07b6d9e36179404/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:29:5-20
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:26:5-44:19
+MERGED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:26:5-44:19
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/d6bcae68177f3c119c774f7f815c5c54/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/d6bcae68177f3c119c774f7f815c5c54/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/mraible/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/927822efb723357a3eb8d7968cc3b779/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/mraible/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/927822efb723357a3eb8d7968cc3b779/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:16:7-39
+	android:icon
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:17:7-41
+	android:allowBackup
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:15:7-33
+	android:theme
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:18:7-38
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:14:7-38
+activity#com.oktarn.MainActivity
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:19:7-28:18
+	android:label
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:21:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:23:9-51
+	android:configChanges
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:22:9-79
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:20:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:24:9-27:25
+action#android.intent.action.MAIN
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:25:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:26:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:29:7-84
+	android:name
+		ADDED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:29:17-81
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/92234555c6f709e73da961278a110bc7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/98161907538ca3c40bf590ed6f63b1e2/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/ee46c51fa3395ce19a4d447e570e019a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/98268dfdea4898e130dd9823346f0cb5/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/d8cd098b52cb7ce0bc67a9b70a5b121a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/8a29560c86bfe0830cab3cac4a139609/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d939e2d87a5c00c001e0aeff55e1d0c9/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/503cf665d5315d0fcf81d84f51c7239d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/5e314a677551237632bac709c4978c53/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/3302ce93e024a904af781b8f3b7b94c1/AndroidManifest.xml:26:9-47
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:27:9-31:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:30:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:28:13-78
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:32:9-43:20
+	android:exported
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:33:13-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:35:13-42:29
+action#android.intent.action.VIEW
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:39:27-75
+data
+ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:41:17-67
+	android:scheme
+		ADDED from [net.openid:appauth:0.7.0] /Users/mraible/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/21217675366a97478a3a59d7f61a64f0/AndroidManifest.xml:41:23-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/mraible/okta-react-native-app-auth/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

@@ -1,0 +1,26 @@
+{
+  "name": "okta-react-native-app-auth",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "buffer": "^5.0.8",
+    "react": "16.2.0",
+    "react-native": "0.52.2",
+    "react-native-app-auth": "^1.0.1",
+    "styled-components": "^3.1.5"
+  }
+}

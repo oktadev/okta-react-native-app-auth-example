@@ -1,0 +1,5 @@
+platform :ios, '11.0'
+
+target 'OktaRN' do
+  pod 'AppAuth', '>= 0.91'
+end
