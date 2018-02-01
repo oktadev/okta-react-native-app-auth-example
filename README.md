@@ -46,13 +46,21 @@ auth = new AppAuth({
 });
 ```
 
-To run the app on iOS:
- 
+To run the app on iOS, you'll first need to install CocoaPods:
+
+```bash
+sudo gem install cocoapods
+```
+
+Then `cd` into the `ios` directory and run `pod install`. Then you can run the following command to start and deploy the app into iOS Simulator.
+
 ```bash
 npm run ios
 ```
 
-To run the app on Android:
+To run the app on Android, you'll have to an Android Virtual Device (AVD). Open Android Studio, select open existing project, and choose the `android` directory in your cloned project. If you're prompted to update anything, approve it.
+
+To create a new AVD, navigate to **Tools** > **Android** > **AVD Manager**. Create a new Virtual Device and click Play. I recommend using Pixel 2 with `Android API 27 x86`.
  
 ```bash
 npm run android
