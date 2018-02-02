@@ -36,6 +36,8 @@ Log in to your Okta Developer account and navigate to **Applications** > **Add A
 
 Click **Done** and you should see a client ID next screen. Copy and save this value as well. 
 
+### Specify Your Issuer, Client ID, and Redirect URI
+
 Open `App.js` and adjust the initialization of `AppAuth` with your settings.
 
 ```
@@ -45,6 +47,10 @@ auth = new AppAuth({
     redirectUrl: 'com.{yourReversedOktaDomain}:/callback	'
 });
 ```
+
+Update `ios/OktaRN/Info.plist` and `android/app/build.gradle` to replace the redirect scheme (`com.oktapreview.dev-158606`) with the one that matches your native app's redirect URI.
+
+### Run the App
 
 To run the app on iOS, you'll first need to install CocoaPods:
 
@@ -60,7 +66,7 @@ npm run ios
 
 To run the app on Android, you'll have to an Android Virtual Device (AVD). Open Android Studio, select open existing project, and choose the `android` directory in your cloned project. If you're prompted to update anything, approve it.
 
-To create a new AVD, navigate to **Tools** > **Android** > **AVD Manager**. Create a new Virtual Device and click Play. I recommend using Pixel 2 with `Android API 27 x86`.
+To create a new AVD, navigate to **Tools** > **Android** > **AVD Manager**. Create a new Virtual Device and run it. I recommend using Pixel 2 with `Android API 27 x86`.
  
 ```bash
 npm run android

@@ -49,9 +49,9 @@ export default class App extends Component<{}, State> {
         {
           hasLoggedInOnce: true,
           accessToken: authState.accessToken,
-          idToken: authState.idToken,
           accessTokenExpirationDate: authState.accessTokenExpirationDate,
-          refreshToken: authState.refreshToken
+          refreshToken: authState.refreshToken,
+          idToken: authState.idToken
         },
         500
       );
@@ -94,6 +94,7 @@ export default class App extends Component<{}, State> {
       // reset to id token if beers is already populated
       this.animateState({beers: []})
     } else {
+      // change localhost to your IP address to run on an Android AVD, or on a phone
       fetch('http://localhost:8080/good-beers', {
         headers: {
           'Authorization': `Bearer ${this.state.accessToken}`
