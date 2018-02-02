@@ -76,7 +76,7 @@ export default class App extends Component<{}, State> {
 
   revoke = async () => {
     try {
-      await this.auth.revokeToken(this.state.accessToken, true);
+      await this.auth.revokeToken(this.state.accessToken);
       this.animateState({
         accessToken: '',
         accessTokenExpirationDate: '',
