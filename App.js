@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { UIManager, LayoutAnimation } from 'react-native';
-import AppAuth from 'react-native-app-auth';
+import { UIManager, LayoutAnimation, Alert } from 'react-native';
+import { authorize, refresh, revoke } from 'react-native-app-auth';
 import { Page, Button, ButtonContainer, Form, Heading } from './components';
 import { Buffer } from 'buffer';
 
 UIManager.setLayoutAnimationEnabledExperimental &&
-UIManager.setLayoutAnimationEnabledExperimental(true);
+  UIManager.setLayoutAnimationEnabledExperimental(true);
 
 const scopes = ['openid', 'profile', 'email', 'offline_access'];
 
@@ -17,13 +17,15 @@ type State = {
   idToken: ?string
 };
 
-export default class App extends Component<{}, State> {
-  auth = new AppAuth({
-    issuer: 'https://dev-158606.oktapreview.com/oauth2/default',
-    clientId: '0oaduuabexRNTJjhQ0h7',
-    redirectUrl: 'com.oktapreview.dev-158606:/callback'
-  });
+const config = {
+  issuer: 'https://dev-158606.oktapreview.com/oauth2/default',
+  clientId: '0oaebtjrywtnK6hGp0h7',
+  redirectUrl: 'com.oktapreview.dev-158606:/callback',
+  additionalParameters: {},
+  scopes: ['openid', 'profile', 'email', 'offline_access']
+};
 
+export default class App extends Component<{}, State> {
   state = {
     hasLoggedInOnce: false,
     accessToken: '',
@@ -42,27 +44,30 @@ export default class App extends Component<{}, State> {
     }, delay);
   }
 
-  authorize = async () => {
-    try {
-      const authState = await this.auth.authorize(scopes);
-      this.animateState(
-        {
-          hasLoggedInOnce: true,
-          accessToken: authState.accessToken,
-          accessTokenExpirationDate: authState.accessTokenExpirationDate,
-          refreshToken: authState.refreshToken,
-          idToken: authState.idToken
-        },
-        500
-      );
-    } catch (error) {
-      console.error(error);
-    }
-  };
+authorize = async () => {
+  try {
+    const authState = await authorize(config);
+    this.animateState(
+      {
+        hasLoggedInOnce: true,
+        accessToken: authState.accessToken,
+        accessTokenExpirationDate: authState.accessTokenExpirationDate,
+        refreshToken: authState.refreshToken,
+        idToken: authState.idToken
+      },
+      500
+    );
+  } catch (error) {
+    Alert.alert('Failed to log in', error.message);
+  }
+};
 
   refresh = async () => {
     try {
-      const authState = await this.auth.refresh(this.state.refreshToken, scopes);
+      const authState = await refresh(config, {
+        refreshToken: this.state.refreshToken
+      });
+
       this.animateState({
         accessToken: authState.accessToken || this.state.accessToken,
         accessTokenExpirationDate:
@@ -70,32 +75,32 @@ export default class App extends Component<{}, State> {
         refreshToken: authState.refreshToken || this.state.refreshToken
       });
     } catch (error) {
-      console.error(error);
+      Alert.alert('Failed to refresh token', error.message);
     }
   };
 
   revoke = async () => {
     try {
-      await this.auth.revokeToken(this.state.accessToken);
+      await revoke(config, {
+        tokenToRevoke: this.state.accessToken,
+        sendClientId: true
+      });
       this.animateState({
         accessToken: '',
         accessTokenExpirationDate: '',
-        refreshToken: '',
-        idToken: '',
-        beers: []
+        refreshToken: ''
       });
     } catch (error) {
-      console.error(error);
+      Alert.alert('Failed to revoke token', error.message);
     }
   };
-
+  
   fetchGoodBeers = async () => {
     if (this.state.beers.length) {
       // reset to id token if beers is already populated
       this.animateState({beers: []})
     } else {
-      // change localhost to your IP address to run on an Android AVD, or on a phone
-      fetch('http://localhost:8080/good-beers', {
+      fetch('http://192.168.0.229:8080/good-beers', {
         headers: {
           'Authorization': `Bearer ${this.state.accessToken}`
         }
