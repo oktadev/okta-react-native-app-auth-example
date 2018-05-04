@@ -4,7 +4,7 @@ This example app shows how to create a React Native application and authenticate
 
 [Click here](RN-README.md) to see the original README that's created by create-react-native-app.
 
-Please read [Build a React Native Application and Authenticate with OAuth 2.0](https://developer.okta.com/blog/2018/03/16/build-react-native-authentication-oauth-2.0) to see how this app was created.
+Please read [Build a React Native Application and Authenticate with OAuth 2.0](https://developer.okta.com/blog/2018/03/16/build-react-native-authentication-oauth-2) to see how this app was created.
 
 **Prerequisites:** [Node.js](https://nodejs.org/) and Xcode (for iOS/Mac) or Android Studio (for Android).
 
