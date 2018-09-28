@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { UIManager, LayoutAnimation, Alert } from 'react-native';
+import { Alert, UIManager, LayoutAnimation } from 'react-native';
 import { authorize, refresh, revoke } from 'react-native-app-auth';
 import { Page, Button, ButtonContainer, Form, Heading } from './components';
 import { Buffer } from 'buffer';
@@ -7,20 +7,19 @@ import { Buffer } from 'buffer';
 UIManager.setLayoutAnimationEnabledExperimental &&
   UIManager.setLayoutAnimationEnabledExperimental(true);
 
-const scopes = ['openid', 'profile', 'email', 'offline_access'];
-
 type State = {
   hasLoggedInOnce: boolean,
   accessToken: ?string,
   accessTokenExpirationDate: ?string,
   refreshToken: ?string,
-  idToken: ?string
+  idToken: ?string,
+  beers: []
 };
 
 const config = {
-  issuer: 'https://dev-158606.oktapreview.com/oauth2/default',
-  clientId: '0oaebtjrywtnK6hGp0h7',
-  redirectUrl: 'com.oktapreview.dev-158606:/callback',
+  issuer: 'https://dev-737523.oktapreview.com/oauth2/default',
+  clientId: '0oagessy4mUlMTXW70h7',
+  redirectUrl: 'com.oktapreview.dev-737523:/callback',
   additionalParameters: {},
   scopes: ['openid', 'profile', 'email', 'offline_access']
 };
@@ -44,23 +43,23 @@ export default class App extends Component<{}, State> {
     }, delay);
   }
 
-authorize = async () => {
-  try {
-    const authState = await authorize(config);
-    this.animateState(
-      {
-        hasLoggedInOnce: true,
-        accessToken: authState.accessToken,
-        accessTokenExpirationDate: authState.accessTokenExpirationDate,
-        refreshToken: authState.refreshToken,
-        idToken: authState.idToken
-      },
-      500
-    );
-  } catch (error) {
-    Alert.alert('Failed to log in', error.message);
-  }
-};
+  authorize = async () => {
+    try {
+      const authState = await authorize(config);
+      this.animateState(
+        {
+          hasLoggedInOnce: true,
+          accessToken: authState.accessToken,
+          accessTokenExpirationDate: authState.accessTokenExpirationDate,
+          refreshToken: authState.refreshToken,
+          idToken: authState.idToken
+        },
+        500
+      );
+    } catch (error) {
+      Alert.alert('Failed to log in', error.message);
+    }
+  };
 
   refresh = async () => {
     try {
@@ -71,11 +70,30 @@ authorize = async () => {
       this.animateState({
         accessToken: authState.accessToken || this.state.accessToken,
         accessTokenExpirationDate:
-        authState.accessTokenExpirationDate || this.state.accessTokenExpirationDate,
+          authState.accessTokenExpirationDate || this.state.accessTokenExpirationDate,
         refreshToken: authState.refreshToken || this.state.refreshToken
       });
     } catch (error) {
       Alert.alert('Failed to refresh token', error.message);
+    }
+  };
+  
+  fetchGoodBeers = async () => {
+    if (this.state.beers.length) {
+      // reset to id token if beers is already populated
+      this.animateState({beers: []})
+    } else {
+      try {
+        const response = await fetch('http://192.168.0.60:8080/good-beers', {
+          headers: {
+            'Authorization': `Bearer ${this.state.accessToken}`
+          }
+        });
+        const data = await response.json();
+        this.animateState({beers: data});
+      } catch(error) {
+        console.error(error);
+      }
     }
   };
 
@@ -88,27 +106,11 @@ authorize = async () => {
       this.animateState({
         accessToken: '',
         accessTokenExpirationDate: '',
-        refreshToken: ''
+        refreshToken: '',
+        beers: []
       });
     } catch (error) {
       Alert.alert('Failed to revoke token', error.message);
-    }
-  };
-  
-  fetchGoodBeers = async () => {
-    if (this.state.beers.length) {
-      // reset to id token if beers is already populated
-      this.animateState({beers: []})
-    } else {
-      fetch('http://192.168.0.229:8080/good-beers', {
-        headers: {
-          'Authorization': `Bearer ${this.state.accessToken}`
-        }
-      }).then(response => response.json())
-        .then(data => {
-          this.animateState({beers: data})
-        })
-        .catch(error => console.error(error));
     }
   };
 
