@@ -1,26 +1,26 @@
 {
-  "name": "okta-react-native-app-auth",
-  "version": "0.2.0",
+  "name": "OktaRN",
+  "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1",
-    "jest-react-native": "^18.0.0",
-    "react-test-renderer": "16.2.0"
-  },
   "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "test": "node node_modules/jest/bin/jest.js"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "buffer": "^5.2.1",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-app-auth": "^3.1.0",
+    "styled-components": "^3.4.9"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.47.0",
+    "react-test-renderer": "16.5.0"
   },
   "jest": {
     "preset": "react-native"
-  },
-  "dependencies": {
-    "buffer": "^5.1.0",
-    "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.2",
-    "react-native-app-auth": "^2.2.0",
-    "styled-components": "^3.2.3"
   }
 }
