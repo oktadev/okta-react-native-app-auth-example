@@ -38,11 +38,11 @@ Click **Done** and you should see a client ID next screen. Copy and save this va
 
 Open `App.js` and adjust the initialization of `AppAuth` with your settings.
 
-```
+```js
 auth = new AppAuth({
     issuer: 'https://{yourOktaDomain}.com/oauth2/default',
     clientId: '{clientId}',
-    redirectUrl: 'com.{yourReversedOktaDomain}:/callback	'
+    redirectUrl: 'com.{yourReversedOktaDomain}:/callback'
 });
 ```
 
